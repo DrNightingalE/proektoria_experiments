@@ -1,0 +1,8 @@
+<svg width="140px" height="122px" viewBox="0 0 140 122" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <clipPath id="hexogon-clip-mask">
+            <polygon fill="#D8D8D8" transform="translate(70.000000, 61.000000) scale(1, -1) rotate(270.000000) translate(-70.000000, -61.000000) " points="70 -9 130.621778 26 130.621778 96 70 131 9.3782217 96 9.3782217 26"></polygon>
+        </clipPath>
+    </defs>
+    <polygon id="hexogon-clip" fill="#D8D8D8" transform="translate(70.000000, 61.000000) scale(1, -1) rotate(270.000000) translate(-70.000000, -61.000000) " points="70 -9 130.621778 26 130.621778 96 70 131 9.3782217 96 9.3782217 26"></polygon>
+</svg>

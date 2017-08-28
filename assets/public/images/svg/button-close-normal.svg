@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="46px" viewBox="0 0 40 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>F03E94E1-67CB-4EE4-B6EE-2696FBB20E9E</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Changes" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Каталог-ВУЗов-с-попапом" transform="translate(-1120.000000, -574.000000)">
+            <g id="Popup">
+                <g id="button-close-normal" transform="translate(1120.000000, 574.000000)">
+                    <polygon id="Polygon-23" fill="#E01B22" points="20 0 40 11.5 40 34.5 20 46 -1.76303416e-13 34.5 -1.89182003e-13 11.5"></polygon>
+                    <g id="Group-3" transform="translate(20.500000, 23.500000) rotate(-45.000000) translate(-20.500000, -23.500000) translate(9.000000, 12.000000)" fill="#FFFFFF">
+                        <rect id="Rectangle-3" x="9" y="-1.42108547e-14" width="5" height="23"></rect>
+                        <rect id="Rectangle-3" transform="translate(11.500000, 11.500000) rotate(-270.000000) translate(-11.500000, -11.500000) " x="9" y="8.38440428e-13" width="5" height="23"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

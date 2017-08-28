@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="32px" height="28px" viewBox="0 0 32 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>bullet-cube</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bullet-cube" transform="translate(16.441343, 14.173394) rotate(-30.000000) translate(-16.441343, -14.173394) translate(2.941343, -1.326606)">
+            <polygon id="path-1" stroke="#B6C5DC" fill="#FFFFFF" points="12.9903811 0.00961894323 22.54339 5.52505119 25.9807622 7.50961894 25.9807622 22.5096189 12.9903811 30.0096189 8.8817842e-16 22.5096189 8.8817842e-16 7.50961894"></polygon>
+            <polyline id="Path" stroke="#B4C5DC" points="26.0009126 7.63149834 12.9389127 15.0914833 12.9753952 30.1480856"></polyline>
+            <path d="M0.0600269261,7.58782102 L13.4092865,15.2025534" id="Path-2" stroke="#B2C5DC"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="46px" viewBox="0 0 40 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>A25E3C9A-5128-4C71-BA4B-068D51C7D367</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="107.207191%" x2="50%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-2" points="20 0 40 11.5 40 34.5 20 46 9.1038288e-14 34.5 7.81597009e-14 11.5"></polygon>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Buttons-/-Slider-/-Redleft-hover">
+            <g id="button-sliderRedleft-hover">
+                <g id="Polygon-23">
+                    <use fill="#E01B22" xlink:href="#path-2"></use>
+                    <use fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                </g>
+                <polygon id="Rectangle-122" fill="#FFFFFF" transform="translate(18.500000, 23.000000) scale(-1, 1) translate(-18.500000, -23.000000) " points="19 23 12 13 18 13 25 23 18 33 12 33"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

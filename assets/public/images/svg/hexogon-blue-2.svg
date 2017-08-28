@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>DFA7EC34-4C37-4E2F-B68E-2528CAEBDB1A</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <polygon id="path-1" points="26 0 51.9807621 15 51.9807621 45 26 60 0.0192378865 45 0.0192378865 15"></polygon>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="51.9615242" height="60" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="51.9615242" height="60" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <polygon id="path-5" points="26 -29 51.9807621 -14 51.9807621 16 26 31 0.0192378865 16 0.0192378865 -14"></polygon>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="51.9615242" height="60" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <polygon id="path-7" points="100 30 160.621778 65 160.621778 135 100 170 39.3782217 135 39.3782217 65"></polygon>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="121.243557" height="140" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+        <polygon id="path-9" points="13 0 25.9903811 7.5 25.9903811 22.5 13 30 0.00961894323 22.5 0.00961894323 7.5"></polygon>
+        <mask id="mask-10" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="25.9807621" height="30" fill="white">
+            <use xlink:href="#path-9"></use>
+        </mask>
+        <mask id="mask-12" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="25.9807621" height="30" fill="white">
+            <use xlink:href="#path-9"></use>
+        </mask>
+        <polygon id="path-13" points="13 -14 25.9903811 -6.5 25.9903811 8.5 13 16 0.00961894323 8.5 0.00961894323 -6.5"></polygon>
+        <mask id="mask-14" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="25.9807621" height="30" fill="white">
+            <use xlink:href="#path-13"></use>
+        </mask>
+    </defs>
+    <g id="Changes" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="f-Mainpage" transform="translate(-300.000000, -1130.000000)">
+            <g id="Directions" transform="translate(260.000000, 807.000000)">
+                <g id="4" transform="translate(0.000000, 323.000000)">
+                    <g id="teaser-bg02" transform="translate(40.000000, 0.000000)">
+                        <g id="Group-10" transform="translate(152.000000, 48.000000) rotate(90.000000) translate(-152.000000, -48.000000) translate(126.000000, 18.000000)">
+                            <mask id="mask-3" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="Mask" stroke="#B7C6DC" mask="url(#mask-2)" stroke-width="2" fill="#FFFFFF">
+                                <use mask="url(#mask-4)" xlink:href="#path-1"></use>
+                            </g>
+                            <g id="Polygon-23" mask="url(#mask-3)" stroke-width="2" stroke="#B7C6DC">
+                                <use mask="url(#mask-6)" xlink:href="#path-5"></use>
+                            </g>
+                            <path d="M26,30.5 L26,58.5" id="Line" stroke="#B7C6DC" stroke-linecap="square" mask="url(#mask-3)"></path>
+                        </g>
+                        <use id="Polygon-23-Copy" stroke="#B6C5DC" mask="url(#mask-8)" stroke-width="2" fill="#EEF8FF" transform="translate(100.000000, 100.000000) rotate(90.000000) translate(-100.000000, -100.000000) " xlink:href="#path-7"></use>
+                        <g id="Group-10-Copy-4" transform="translate(49.000000, 145.000000) rotate(90.000000) translate(-49.000000, -145.000000) translate(36.000000, 130.000000)">
+                            <mask id="mask-11" fill="white">
+                                <use xlink:href="#path-9"></use>
+                            </mask>
+                            <g id="Mask" stroke="#B6C5DC" mask="url(#mask-10)" stroke-width="2" fill="#FFFFFF">
+                                <use mask="url(#mask-12)" xlink:href="#path-9"></use>
+                            </g>
+                            <g id="Polygon-23" mask="url(#mask-11)" stroke-width="2" stroke="#B6C5DC">
+                                <use mask="url(#mask-14)" xlink:href="#path-13"></use>
+                            </g>
+                            <path d="M13,15.5 L13,43.5" id="Line" stroke="#B6C5DC" stroke-linecap="square" mask="url(#mask-11)"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,444 @@
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/proximanova/ProximaNova-Light.eot?') format('embedded-opentype'),
+    url('../fonts/proximanova/ProximaNova-Light.otf')  format('opentype'),
+    url('../fonts/proximanova/ProximaNova-Light.woff') format('woff'),
+    url('../fonts/proximanova/ProximaNova-Light.ttf')  format('truetype'),
+    url('../fonts/proximanova/ProximaNova-Light.svg') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/proximanova/ProximaNova-Regular.eot?') format('embedded-opentype'),
+    url('../fonts/proximanova/ProximaNova-Regular.otf')  format('opentype'),
+    url('../fonts/proximanova/ProximaNova-Regular.woff') format('woff'),
+    url('../fonts/proximanova/ProximaNova-Regular.ttf')  format('truetype'),
+    url('../fonts/proximanova/ProximaNova-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/proximanova/Proxima Nova Semibold.eot?') format('embedded-opentype'),
+    url('../fonts/proximanova/Proxima Nova Semibold.otf')  format('opentype'),
+    url('../fonts/proximanova/Proxima Nova Semibold.woff') format('woff'),
+    url('../fonts/proximanova/Proxima Nova Semibold.ttf')  format('truetype'),
+    url('../fonts/proximanova/Proxima Nova Semibold.svg') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/proximanova/ProximaNova-Bold.eot?') format('embedded-opentype'),
+             url('../fonts/proximanova/ProximaNova-Bold.otf')  format('opentype'),
+             url('../fonts/proximanova/ProximaNova-Bold.woff') format('woff'),
+             url('../fonts/proximanova/ProximaNova-Bold.ttf')  format('truetype'),
+             url('../fonts/proximanova/ProximaNova-Bold.svg') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/proximanova/ProximaNova-Extrabld.eot?') format('embedded-opentype'),
+             url('../fonts/proximanova/ProximaNova-Extrabld.otf')  format('opentype'),
+             url('../fonts/proximanova/ProximaNova-Extrabld.woff') format('woff'),
+             url('../fonts/proximanova/ProximaNova-Extrabld.ttf')  format('truetype'),
+             url('../fonts/proximanova/ProximaNova-Extrabld.svg') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/proximanova/ProximaNova-Black.eot?') format('embedded-opentype'),
+    url('../fonts/proximanova/ProximaNova-Black.otf')  format('opentype'),
+    url('../fonts/proximanova/ProximaNova-Black.woff') format('woff'),
+    url('../fonts/proximanova/ProximaNova-Black.ttf')  format('truetype'),
+    url('../fonts/proximanova/ProximaNova-Black.svg') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+/**********/
+.promo {
+  font: 14px/1.8 "Proxima Nova", Arial, sans-serif;
+}
+
+/* header */
+.header {
+    width: 100%;
+    height: 470px;
+    background: url('../img/header.svg') center top no-repeat;
+    background-size: cover
+    ;
+    color: #fff;
+    overflow: visible;
+    margin-bottom: 50px;
+}
+.promo .header h3{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Proxima Nova";
+}
+.header h1{
+    font-size: 34px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 0px;
+}
+.header p {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 20px 0 42px;
+    width: 430px;
+    line-height: 1.8;
+}
+.header .container_12{
+    padding-top: 80px;
+}
+.promo a{
+    text-decoration: none;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    border: none;
+}
+a.light-btn,
+a.dark-btn  {
+    display: inline-block;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 15pt;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+a.light-btn {
+    color: #50bceb;
+    background-color: #fff;
+}
+a.light-btn:hover {
+    color: rgba(80, 188, 235, 0.8);
+}
+a.dark-btn {
+    color: #fff;
+    background-color: #50bceb;
+}
+a.dark-btn:hover{
+    color: #fff;
+    background-color: rgba(80, 188, 235, 0.8);
+}
+
+/* steps */
+.step1, .step2, .step3{
+    position: relative;
+    height: 300px;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+    color: #787a86;
+    font-weight: bold;
+    font-size: 17px;
+    padding-top: 175px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.step1 {
+    background: url('../img/docs.svg') left top no-repeat;
+    background-size: 129px 134px;
+}
+.step2 {
+    background: url('../img/star.svg') left 21px no-repeat;
+    background-size: 95px 115px;
+}
+.step3 {
+    background: url('../img/chat.svg') left 25px no-repeat;
+    background-size: 111px 111px;
+}
+.step1::after,
+.step2::after {
+    content: '';
+    width: 41px;
+    height: 28px;
+    background: url('../img/arrow.svg') left top no-repeat;
+    background-size: 41px 28px;
+    position: absolute;
+    left: 160px;
+    top: 64px;
+}
+
+/* intro */
+.grid_8.intro {
+    color: #2d2d2d;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 1.8em;
+    margin-bottom: 85px;
+    width: 600px;
+    margin-right: 30px;
+}
+a.bordered {
+    text-decoration: none;
+    border-bottom: 1px #50bceb solid;
+    color: #50bceb;
+    padding-bottom: 2px;
+}
+a.bordered:hover{
+    color: rgba(80, 188, 235, 0.8);
+}
+
+/* right boxes */
+.blue-box {
+    background-color: #50bceb;
+    border-radius: 5px;
+    color: #fff;
+    padding: 17px 35px 22px 40px;
+    width: 290px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.blue-box p {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.blue-box a {
+    font-size: 14px;
+    padding: 8px 20px;
+    margin-top: 25px;
+}
+.gray-box {
+    background-color: #efefef;
+    border-radius: 5px;
+    padding: 24px 35px 20px 40px;
+    width: 290px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.gray-box a {
+    text-decoration: none;
+    color: #787a86;
+    background: url('../img/doc.svg') left top no-repeat;
+    background-size: 45px 58px;
+    padding-left: 92px;
+    padding-top: 5px;
+    height: 58px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.5;
+}
+.gray-box a:hover {
+    color: #2d2d2d;
+    background: url('../img/doc-hover.svg') left top no-repeat;
+    background-size: 45px 58px;
+}
+
+/* excerpts */
+.excerpts {
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.excerpts p{
+    padding-left: 80px;
+    position: relative;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+.excerpts.second p{
+    padding-left: 150px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+.excerpts span{
+    color: #fc5454;
+    width: 60px;
+    display: block;
+    text-align: right;
+    padding-right: 20px;
+    font-size: 22px;
+    vertical-align: middle;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.excerpts.second {
+    margin-left: -30px;
+    width: 340px;
+}
+.excerpts.second span{
+    vertical-align: top;
+    width: 130px;
+}
+
+
+.people{
+    margin-top: 30px;
+    width: 100%;
+    height: 865px;
+    background: url('../img/people.jpg') center top no-repeat;
+    overflow: visible;
+}
+
+.directions h2 {
+    color: #787a86;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 80px 0 50px;
+}
+.directions span{
+    display: block;
+    font-size: 20px;
+    line-height: 1;
+}
+.directions div{
+    background-size: 155px 139px;
+    text-align: center;
+    height: 240px;
+    width: 185px;
+    float: left;
+    padding-top: 170px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #787a86;
+}
+.directions div.wide{
+    width: 280px;
+}
+
+
+.health {
+    margin-left: -17px;
+    background: url('../img/tree.svg') center top no-repeat;
+}
+.health span{
+    color: #00ae00;
+}
+.health:hover{
+    opacity: 0.9;
+}
+.energy {
+    background: url('../img/energy.svg') center top no-repeat;
+}
+.energy span{
+    color: #0090cc;
+}
+.energy:hover{
+    opacity: 0.9;
+}
+.material {
+    background: url('../img/mats.svg') center top no-repeat;
+}
+.material span{
+    color: #d23bce;
+}
+.material:hover{
+    opacity: 0.9;
+}
+.motion {
+    margin-left: -17px;
+    background: url('../img/auto.svg') center top no-repeat;
+}
+.motion span{
+    color: #FE141D;
+}
+.motion:hover{
+    opacity: 0.9;
+}
+.info {
+    background: url('../img/nets.svg') center top no-repeat;
+}
+.info span{
+    color: #fe9f00;
+}
+.info:hover{
+    opacity: 0.9;
+}
+.space {
+    background: url('../img/space.svg') center top no-repeat;
+}
+.space span{
+    color: #00b0d0;
+}
+.space:hover{
+    opacity: 0.9;
+}
+
+/* footer */
+.footer {
+    margin-top: 90px;
+}
+.footer p{
+    color: #2d2d2d;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    line-height: 1.8;
+}
+.footer .dark-btn {
+    padding: 8px 25px;
+}
+
+.partners h2{
+    color: #787a86;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 100px 0 20px;
+}
+.partners .logos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    width: 940px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.partners .logos a:hover{
+    opacity: .8;
+}
+.partners .first{
+    width: 205px;
+    height: 170px;
+    background: url('../img/vadus.svg') right 20px no-repeat;
+    background-size: 205px 120px;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+        flex-grow: 1;
+
+}
+.partners .second{
+    width: 349px;
+    height: 170px;
+    background: url('../img/forum.svg') left 50px no-repeat;
+    background-size: 349px 48px;
+}
+.partners .third{
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+        flex-grow: 1;
+    width: 145px;
+    height: 170px;
+    background: url('../img/lift.svg') left -142px no-repeat;
+    background-size: 145px 242px;
+}
+.partners .logos img{
+margin: 0 20px 0 0;
+}
+nav.main-navigation.in-header ul::after {
+    display: none !important;
+}
