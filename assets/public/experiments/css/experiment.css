@@ -689,3 +689,210 @@ form:before{
 .preleminary .title-result {
     margin-top: 69px;
 }
+
+
+
+/* Result */
+
+.experiment-result .section-title {
+	position: relative;
+	overflow: hidden;
+	font-family: Proxima Nova Extrabld;
+	font-size: 129px;
+	letter-spacing: -3.5px;
+	text-align: center;
+	color: #d649d4;
+	text-transform: uppercase;
+}
+
+.experiment-result .section-subtitle  {
+	width: 480px;
+	height: 44px;
+	font-family: Proxima Nova Extrabld;
+	font-size: 36px;
+	text-align: left;
+	color: #d636d3;
+	text-align: center;
+}
+
+.experiment-result .title-image {
+	position: absolute;
+	/*top: 0;
+	bottom: 0;*/
+	width: 100%;
+	z-index: 1;
+
+	width: 831px;
+	height: 197px;
+	object-fit: contain;
+	background-image:url("/assets/public/experiments/images/svg/slashes.png");
+	/*background-position: 50px 100px;*/
+}
+
+.experiment-result .experiment-title {
+	font-size: 21px;
+	font-weight: 800;
+	line-height: 1.43;
+	text-align: center;
+	color: #f15d4f;
+	text-transform: uppercase;
+	margin-top: 50px;
+	margin-bottom: 65px;
+}
+
+.experiment-result .experiment-position {
+	width: 280px;
+	float: left;
+	margin-bottom: 80px;
+	
+	margin-right: -100%;
+	clear: both;
+	margin-left: 0;
+
+
+}
+
+.exp-result {
+	width: 280px;
+	height: 160px;
+	float: left;
+	margin-bottom: 80px;
+	display: inline-block;
+	text-align: center;
+	position: relative;
+}
+
+.exp-result:nth-child(3n+1) {
+	margin-right: -100%;
+	clear: both;
+	margin-left: 0;
+}
+
+.exp-result:nth-child(3n+2) {
+    margin-left: 320px;
+    margin-right: -100%;
+    clear: none;
+}
+
+.exp-result:nth-child(3n+3) {
+	margin-left: 640px;
+	margin-right: -100%;
+	clear: none;
+}
+
+.medal {
+	height: 78%;
+}
+
+.medal2 {
+	width: 80px;
+	height: 84px;
+	object-fit: contain;
+	left:35%; 
+	position: absolute;
+	z-index: 999;
+
+	font-family: Proxima Nova Extrabld;
+	font-size: 46px;
+	text-align: center;
+	color: #777776;
+}
+
+.exp-result .number {
+	width: 28px;
+	height: 56px;
+	font-family: Proxima Nova Extrabld;
+	font-size: 46px;
+	text-align: center;
+	color: #777776;
+}
+
+.exp-result .ribbon {
+	position: absolute;
+	width: 239px;
+	height: 50px;
+	object-fit: contain;
+	left: 7%;
+	bottom: 22%;
+}
+
+.exp-result .ribbon-text{
+	width: 279px;
+	height: 34px;
+	font-family: Proxima Nova Extrabld;
+	font-size: 28px;
+	text-align: center;
+	color: #ffffff;
+	position: absolute;
+	bottom: 13%;
+}
+
+.exp-result .text .fio {
+	margin: 20px 0 10px 0;
+	width: 279px;
+	height: 20px;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1;
+	text-align: center;
+	color: #535557;
+}
+
+.exp-result .grey-text {
+	width: 279px;
+	height: 20px;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 1.43;
+	text-align: center;
+	color: #777d86;
+}
+
+.exp-result-formula {
+  width: 280px;
+  height: 30px;
+  font-family: Proxima Nova;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: -0.7px;
+  text-align: center;
+  color: #535557;
+  margin: 0;
+}
+
+.exp-result-formula .substyle {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.exp-result .discription {
+  width: 279px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: italic;
+  line-height: 1.25;
+  text-align: center;
+  color: #535557;
+}
+.cif-download-text {
+  height: 40px;
+  font-size: 16px;
+  line-height: 2.5;
+  text-align: left;
+  color: #12bcf9;
+}
+
+.cif-download-text:before {
+
+	display: block;
+
+	float: left;
+	margin: 0 13px 0 0;
+
+	content: "";
+	width: 29px;
+	height: 29px;
+	background: url(../images/svg/cifblue.svg) top no-repeat;
+}
+/* /Result */

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="831" height="197" viewBox="0 0 831 197">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#FFF" d="M379 197h-5l70-122h6zM5 122H0L70 0h6zM760 184h-5l70-122h6z"/>
+        <path fill="#F9A74E" fill-rule="nonzero" d="M554.8 147.5h10.5V164h-10.5z"/>
+        <path fill="#382673" fill-rule="nonzero" d="M562.2 147.5h3V164h-3z" opacity=".2"/>
+        <path fill="#FFDE39" fill-rule="nonzero" d="M569 163h-18c-3.3 0-6 2.7-6 6h30c0-3.3-2.7-6-6-6z"/>
+        <path fill="#FEC632" fill-rule="nonzero" d="M569 163h-5c3.3 0 6 2.7 6 6h5c0-3.3-2.7-6-6-6z"/>
+        <path fill="#FFDE39" fill-rule="nonzero" d="M565.1 156h-10.2c-2.7 0-4.9-2.2-4.9-4.9V150h20v1.1c0 2.7-2.2 4.9-4.9 4.9z"/>
+        <path fill="#FEC632" fill-rule="nonzero" d="M566 150v1.1c0 2.7-1.2 4.9-3.9 4.9h3c2.7 0 4.9-2.2 4.9-4.9V150h-4z"/>
+        <path fill="#F9A74E" fill-rule="nonzero" d="M577 169h-34c0-1.1.9-2 2-2h30c1.1 0 2 .9 2 2z"/>
+        <path fill="#382673" fill-rule="nonzero" d="M575 167h-5c1.1 0 2 .9 2 2h5c0-1.1-.9-2-2-2z" opacity=".2"/>
+        <path fill="#F9A74E" fill-rule="nonzero" d="M572 148h-24v3c0 1.1.9 2 2 2h20c1.1 0 2-.9 2-2v-3z"/>
+        <path fill="#F9A74E" fill-rule="nonzero" d="M572 148h-24v3c0 1.1.9 2 2 2h20c1.1 0 2-.9 2-2v-3z"/>
+        <path fill="#382673" fill-rule="nonzero" d="M567 148l-2 3c1 0 1.1 2 0 2h5c1.1 0 2-.9 2-2v-3h-5z" opacity=".2"/>
+        <path stroke="#F9A74E" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M574 116h19v1c0 10.5-8.5 19-19 19"/>
+        <path stroke="#FEC632" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M546 116h-19v1c0 10.5 8.5 19 19 19"/>
+        <path fill="#FFDE39" fill-rule="nonzero" d="M568.5 151h-17c-6.4 0-11.5-5.1-11.5-11.5V108h40v31.5c0 6.4-5.1 11.5-11.5 11.5z"/>
+        <path stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M546 111v20" opacity=".3"/>
+        <path fill="#FEC632" fill-rule="nonzero" d="M575 108v31.5c0 6.4-5.1 11.5-11.5 11.5h5c6.4 0 11.5-5.1 11.5-11.5V108h-5z"/>
+        <path fill="#F9A74E" fill-rule="nonzero" d="M583 108h-46l3 3h40z"/>
+        <path fill="#382673" fill-rule="nonzero" d="M577 108l-2 3h5l3-3z" opacity=".2"/>
+        <path fill="#FFDE39" fill-rule="nonzero" d="M584 104h-48c-1.1 0-2 .9-2 2s.9 2 2 2h48c1.1 0 2-.9 2-2s-.9-2-2-2z"/>
+        <path fill="#FEC632" fill-rule="nonzero" d="M584 104h-6c1.1 0 2 .9 2 2s-.9 2-2 2h6c1.1 0 2-.9 2-2s-.9-2-2-2z"/>
+        <path stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M546 135.4v2.3" opacity=".3"/>
+        <path fill="#FEC632" fill-rule="nonzero" d="M560 133.5l4.3 2.3c.6.3 1.4-.2 1.3-.9l-.9-4.9 3.5-3.4c.5-.5.2-1.4-.5-1.5l-4.8-.7-2.2-4.4c-.3-.6-1.2-.6-1.5 0l-2.2 4.4-4.8.7c-.7.1-1 1-.5 1.5l3.5 3.4-.8 4.8c-.1.7.6 1.2 1.3.9l4.3-2.2z"/>
+    </g>
+</svg>
