@@ -694,39 +694,43 @@ form:before{
 
 /* Result */
 
+@font-face{font-family:Proxima Nova Extrabld;src:url(/assets/public/fonts/proximanova/ProximaNova-Extrabld.eot?) format("embedded-opentype"),url(/assets/public/fonts/proximanova/ProximaNova-Extrabld.otf) format("opentype"),url(/assets/public/fonts/proximanova/ProximaNova-Extrabld.woff) format("woff"),url(/assets/public/fonts/proximanova/ProximaNova-Extrabld.ttf) format("truetype"),url(/assets/public/fonts/proximanova/ProximaNova-Extrabld.svg) format("svg");font-weight:800;font-style:normal}
+
 .experiment-result .section-title {
+	height: 141px;
 	position: relative;
 	overflow: hidden;
 	font-family: Proxima Nova Extrabld;
-	font-size: 129px;
+	font-size: 137px;
 	letter-spacing: -3.5px;
 	text-align: center;
 	color: #d649d4;
 	text-transform: uppercase;
 }
 
+.section-title .slashes {
+	position: absolute;
+	width: 100%;
+	z-index: 1;
+	width: 831px;
+	height: 197px;
+	object-fit: contain;
+	bottom: 0;
+	right: -2px;
+}
+
 .experiment-result .section-subtitle  {
 	width: 480px;
 	height: 44px;
 	font-family: Proxima Nova Extrabld;
-	font-size: 36px;
+	font-size: 40px;
 	text-align: left;
 	color: #d636d3;
-	text-align: center;
+	margin: 0 0 70px 42px;
 }
 
-.experiment-result .title-image {
-	position: absolute;
-	/*top: 0;
-	bottom: 0;*/
-	width: 100%;
-	z-index: 1;
-
-	width: 831px;
-	height: 197px;
-	object-fit: contain;
-	background-image:url("/assets/public/experiments/images/svg/slashes.png");
-	/*background-position: 50px 100px;*/
+.experiment-result .items-grid{
+	margin: 0 0 70px 0;
 }
 
 .experiment-result .experiment-title {
@@ -736,8 +740,7 @@ form:before{
 	text-align: center;
 	color: #f15d4f;
 	text-transform: uppercase;
-	margin-top: 50px;
-	margin-bottom: 65px;
+	margin: 0 0 45px 0;
 }
 
 .experiment-result .experiment-position {
@@ -754,12 +757,12 @@ form:before{
 
 .exp-result {
 	width: 280px;
-	height: 160px;
 	float: left;
-	margin-bottom: 80px;
+	/*margin-bottom: 80px;*/
 	display: inline-block;
 	text-align: center;
 	position: relative;
+	margin-top: 40px;
 }
 
 .exp-result:nth-child(3n+1) {
@@ -772,6 +775,7 @@ form:before{
     margin-left: 320px;
     margin-right: -100%;
     clear: none;
+    margin-top: 0;
 }
 
 .exp-result:nth-child(3n+3) {
@@ -781,17 +785,16 @@ form:before{
 }
 
 .medal {
-	height: 78%;
+	height: 144px;
 }
 
-.medal2 {
+.medal-img {
 	width: 80px;
 	height: 84px;
 	object-fit: contain;
-	left:35%; 
+	left: 35%;
 	position: absolute;
 	z-index: 999;
-
 	font-family: Proxima Nova Extrabld;
 	font-size: 46px;
 	text-align: center;
@@ -812,8 +815,8 @@ form:before{
 	width: 239px;
 	height: 50px;
 	object-fit: contain;
+	top: 21%;
 	left: 7%;
-	bottom: 22%;
 }
 
 .exp-result .ribbon-text{
@@ -824,11 +827,12 @@ form:before{
 	text-align: center;
 	color: #ffffff;
 	position: absolute;
-	bottom: 13%;
+	top: 21%;
+	margin: 0;
 }
 
 .exp-result .text .fio {
-	margin: 20px 0 10px 0;
+	margin: 5px 0 10px 0;
 	width: 279px;
 	height: 20px;
 	font-size: 20px;
@@ -846,7 +850,10 @@ form:before{
 	line-height: 1.43;
 	text-align: center;
 	color: #777d86;
+	margin: 5px 0 5px 0;
 }
+
+
 
 .exp-result-formula {
   width: 280px;
@@ -875,21 +882,11 @@ form:before{
   text-align: center;
   color: #535557;
 }
-.cif-download-text {
-  height: 40px;
-  font-size: 16px;
-  line-height: 2.5;
-  text-align: left;
-  color: #12bcf9;
-}
 
-.cif-download-text:before {
-
-	display: block;
-
-	float: left;
-	margin: 0 13px 0 0;
-
+.cif-download-icon{
+	display:inline-block;
+	vertical-align:bottom;
+	margin: 0 15px 0 0;
 	content: "";
 	width: 29px;
 	height: 29px;
