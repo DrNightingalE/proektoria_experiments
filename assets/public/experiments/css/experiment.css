@@ -696,37 +696,9 @@ form:before{
 
 @font-face{font-family:Proxima Nova Extrabld;src:url(/assets/public/fonts/proximanova/ProximaNova-Extrabld.eot?) format("embedded-opentype"),url(/assets/public/fonts/proximanova/ProximaNova-Extrabld.otf) format("opentype"),url(/assets/public/fonts/proximanova/ProximaNova-Extrabld.woff) format("woff"),url(/assets/public/fonts/proximanova/ProximaNova-Extrabld.ttf) format("truetype"),url(/assets/public/fonts/proximanova/ProximaNova-Extrabld.svg) format("svg");font-weight:800;font-style:normal}
 
-.experiment-result .section-title {
-	height: 141px;
-	position: relative;
-	overflow: hidden;
-	font-family: Proxima Nova Extrabld;
-	font-size: 137px;
-	letter-spacing: -3.5px;
-	text-align: center;
-	color: #d649d4;
-	text-transform: uppercase;
-}
-
-.section-title .slashes {
-	position: absolute;
-	width: 100%;
-	z-index: 1;
-	width: 831px;
-	height: 197px;
-	object-fit: contain;
-	bottom: 0;
-	right: -2px;
-}
-
-.experiment-result .section-subtitle  {
-	width: 480px;
-	height: 44px;
-	font-family: Proxima Nova Extrabld;
-	font-size: 40px;
-	text-align: left;
-	color: #d636d3;
-	margin: 0 0 70px 42px;
+.result-title-img{
+margin-bottom: 70px;
+margin-left: 47px;
 }
 
 .experiment-result .items-grid{
